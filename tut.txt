@@ -1,0 +1,16 @@
+****Commands for Virtual Environment****
+
+1. pip install virtualenv --> to install the virtualenv
+
+2. virtualenv {filename} --> to create the environment, env is the name of the environment user wants.
+
+3. Set-ExecutionPolicy unrestricted  --> if package installing error, run this, or if you have new computer, or sometimes
+scripts don't execute... run this command in windows powershell admin
+
+4. pip install virtualenv --user
+5. py -m venv env --> to create a new environment
+6. ./env/Scripts/activate --> to activate the environment
+
+7. pip freeze > requirements.txt  --> putting all the libraries in requirements.txt file
+
+8. pip install -r requirements.txt --> to install the packages from requirements.txt
